@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color:rgb(102, 197, 95); ; */
+}
+/* nav designs */
+
+.summa{
+    height: 20px;
+    background-color:  rgb(124, 212, 117);
+
+}
+
+nav{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    background-color: rgb(124, 212, 117);
+}
+h2{
+    color: black;
+    
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    margin: 0 10px;
+    padding: 10px 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: yellowgreen;
+}
+
+nav form button{
+    padding: 5px 20px;
+    margin: 0 10px;
+    border: 2px rgb(23, 78, 7) solid;
+    color: black;
+    font-weight: 550;
+}
+
+.signin{
+    background-color: rgb(124, 212, 117);
+}
+.signup{
+    background-color: rgb(124, 212, 117);
+}
+
+/* main box */
+
+.mainbox{
+    height: 630px;
+    width: 100%;
+    background-color:rgb(124, 212, 117);
+    display: flex;
+}
+
+.left{
+    margin: 100px 200px;
+}
+
+.left h4{
+    line-height: 70px;
+    font-size: 45px;
+    font-style:unset;
+    font-weight: 550;
+    margin: 18px 0px;
+}
+.left p{
+    line-height: 30px;
+    font-size: 15px;
+    color: rgb(4, 66, 4);
+    font-weight: bold;
+    margin: 18px 0px;
+}
+
+.left button{
+    margin: 18px 0px;
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    color:white;
+    background-color: rgb(2, 24, 2);
+    font-weight:00;
+}
+.right{
+    margin: 70px 80px;
+    height: 500px;
+    width: 400px;
+    background-color: rgb(52, 202, 59);
+    border-radius: 80px 30px;
+    
+}
+/* exclusive offer  */
+
+.box{
+    background-color:rgb(124, 212, 117);
+    margin: 50px 75px;
+        width: 1200px;
+        display: flex;
+       
+}
+
+.innerone{
+        margin: 30px 100px ;
+        height: 400px;
+        width: 50%;
+  
+}
+.innertwo{
+    margin-top: 25px;
+    height: 400px;
+    width: 50%;
+   
+}
+.innertwo h1{
+    font-style: unset;
+    font-weight: 700;
+    margin: 14px 0px;   
+} 
+
+.container{
+    display: grid;
+    grid-template-columns: 21% 21% 21%;
+    margin: 10px 0;
+   
+}
+
+.timer{
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 40px;
+}
+
+.timer p{
+    background-color: white;
+  
+}
+
+.tp{
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+
+.innertwo button{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(5, 46, 5);
+    shape-margin: none;
+    color: white;
+}
+
+/* best selling  */
+
+.selling{
+   
+    background-color: rgb(221, 247, 250);
+}
+.selling h1{
+    margin: 10px 0px 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(2, 78, 15);;
+}
+.selling h2{
+    color: rgb(6, 114, 24);
+    display: flex;
+    font-weight: normal;
+    justify-content: space-around;
+}
+.sellimg{
+    margin:40px 0px 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.sellimg1 p{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.seemore{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+.seemore button{
+    padding: 8px 20px;
+    background-color: rgb(255, 255, 255);
+    shape-margin: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+/*  /////////////////////////*/
